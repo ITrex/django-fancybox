@@ -10,7 +10,7 @@ from setuptools import setup
 
 setup(
     name='django-fancybox',
-    version='2.1.5k',
+    version='2.1.5',
     url='https://fancyapps.com',
     description=globals()['__doc__'],
     author='Janis Skarnelis',
