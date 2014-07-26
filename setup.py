@@ -10,7 +10,7 @@ from setuptools import setup
 
 setup(
     name='django-fancybox',
-    version='2.1.5',
+    version='2.1.5k',
     url='https://fancyapps.com',
     description=globals()['__doc__'],
     author='Janis Skarnelis',
@@ -31,4 +31,13 @@ setup(
         'Topic :: Utilities',
     ],
     packages=['django_fancybox'],
+    package_data={
+        'django_fancybox':
+        ['static/django_fancybox/*.gif',
+         'static/django_fancybox/*.png',
+         'static/django_fancybox/*.css',
+         'static/django_fancybox/*.js',
+         'static/django_fancybox/helpers/*',
+     ]
+    }
 )
